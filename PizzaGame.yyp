@@ -36,6 +36,9 @@
   "name":"PizzaGame",
   "resources":[
     {"id":{"name":"aboutButton","path":"objects/aboutButton/aboutButton.yy",},},
+    {"id":{"name":"game","path":"objects/game/game.yy",},},
+    {"id":{"name":"oven","path":"objects/oven/oven.yy",},},
+    {"id":{"name":"ovenSlot1","path":"objects/ovenSlot1/ovenSlot1.yy",},},
     {"id":{"name":"quitButton","path":"objects/quitButton/quitButton.yy",},},
     {"id":{"name":"startButton","path":"objects/startButton/startButton.yy",},},
     {"id":{"name":"gameRoom","path":"rooms/gameRoom/gameRoom.yy",},},

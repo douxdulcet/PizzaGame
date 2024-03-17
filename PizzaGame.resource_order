@@ -19,6 +19,9 @@
   ],
   "ResourceOrderSettings":[
     {"name":"aboutButton","order":1,"path":"objects/aboutButton/aboutButton.yy",},
+    {"name":"game","order":3,"path":"objects/game/game.yy",},
+    {"name":"oven","order":4,"path":"objects/oven/oven.yy",},
+    {"name":"ovenSlot1","order":5,"path":"objects/ovenSlot1/ovenSlot1.yy",},
     {"name":"quitButton","order":2,"path":"objects/quitButton/quitButton.yy",},
     {"name":"gameRoom","order":1,"path":"rooms/gameRoom/gameRoom.yy",},
     {"name":"buttonMenu2","order":1,"path":"sprites/buttonMenu2/buttonMenu2.yy",},
