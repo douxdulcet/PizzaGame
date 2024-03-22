@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tomatopile",
+  "%Name":"obj_assembly_desk",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tomatopile",
+  "name":"obj_assembly_desk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Clickables",
-    "path":"folders/Objects/Clickables.yy",
+    "name":"Misc",
+    "path":"folders/Objects/Misc.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"assemblyDesk",
+    "path":"sprites/assemblyDesk/assemblyDesk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

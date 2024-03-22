@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tomato",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ordering_desk",
+  "eventList":[],
   "managed":true,
-  "name":"obj_tomato",
+  "name":"obj_ordering_desk",
   "overriddenProperties":[],
   "parent":{
-    "name":"Draggables",
-    "path":"folders/Objects/Draggables.yy",
+    "name":"Misc",
+    "path":"folders/Objects/Misc.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"desk",
+    "path":"sprites/desk/desk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

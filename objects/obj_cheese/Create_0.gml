@@ -8,5 +8,5 @@ image_xscale = 5;
 image_yscale = 5;
 // Initialize the locked variable
 /// Create Event for Ingredient Object
-
+depth = 8;
 placed_ingredient = false;

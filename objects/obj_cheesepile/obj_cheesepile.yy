@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"cheeseRaw",
-    "path":"sprites/cheeseRaw/cheeseRaw.yy",
+    "name":"cheeseTrayFull",
+    "path":"sprites/cheeseTrayFull/cheeseTrayFull.yy",
   },
   "spriteMaskId":null,
   "visible":true,

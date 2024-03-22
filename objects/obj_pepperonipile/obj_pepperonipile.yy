@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pepRaw",
-    "path":"sprites/pepRaw/pepRaw.yy",
+    "name":"pepTrayFull",
+    "path":"sprites/pepTrayFull/pepTrayFull.yy",
   },
   "spriteMaskId":null,
   "visible":true,

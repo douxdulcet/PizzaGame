@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pizzaBaseRaw",
-    "path":"sprites/pizzaBaseRaw/pizzaBaseRaw.yy",
+    "name":"doughTrayFull",
+    "path":"sprites/doughTrayFull/doughTrayFull.yy",
   },
   "spriteMaskId":null,
   "visible":true,

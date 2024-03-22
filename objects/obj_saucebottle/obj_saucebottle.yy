@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tomSauceRaw",
-    "path":"sprites/tomSauceRaw/tomSauceRaw.yy",
+    "name":"sauceCupTom",
+    "path":"sprites/sauceCupTom/sauceCupTom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
