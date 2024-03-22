@@ -32,5 +32,19 @@ if endofday
 		playergrade = "F";
 	}
 }
-
 // add code to spawn customer and add 100 to highest posible variable
+if iscustomer == false
+{
+	customernumber +=1;
+	
+	if customernumber = 2
+	{
+		// put second customer order here
+	}
+	if customernumber = 3
+	{
+		// put third customer order here
+	}
+	highestposible += 100;
+	iscustomer = true;
+}

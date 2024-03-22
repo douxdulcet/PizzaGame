@@ -8,3 +8,9 @@ scorepercentage = 0.0;
 highestposible = 0;
 endofday = false;
 playergrade = "";
+// after customer has been served change this to false so another customer can be spawned
+iscustomer = true;
+customernumber = 1;
+instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: false, tomatosauce:true});
+highestposible =+ 100;
+

@@ -10,16 +10,16 @@ if raw
 }
 if overdone
 {
-	game.playerscore = game.playerscore + 20;
+	obj_game.playerscore = obj_game.playerscore + 20;
 	overdone = false;
 }
 if underdone
 {
-	game.playerscore = game.playerscore + 20;
+	obj_game.playerscore = obj_game.playerscore + 20;
 	underdone = false;
 }
 if perfect
 {
-	game.playerscore = game.playerscore + 40;
+	obj_game.playerscore = obj_game.playerscore + 40;
 	perfect = false;
 }
