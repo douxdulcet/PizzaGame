@@ -51,8 +51,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"menuRoom","path":"rooms/menuRoom/menuRoom.yy",},},
     {"roomId":{"name":"gameRoom","path":"rooms/gameRoom/gameRoom.yy",},},
+    {"roomId":{"name":"menuRoom","path":"rooms/menuRoom/menuRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

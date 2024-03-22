@@ -28,4 +28,6 @@ if obj_oven.slot1full == true
 	obj_oven.slot1full = false;
 	// set slot cook time to zero
 	obj_oven.slot1cooktime = 0;
+	
+	obj_game.iscustomer = false;
 }
