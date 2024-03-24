@@ -1,33 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
-if obj_oven.slot1full == true
+if full == true
 {
-	if obj_oven.slot1cooktime <= 5
+	if cooktime <= 5
 	{
 		raw = true;
 	}
-	else if obj_oven.slot1cooktime < 10
+	else if cooktime < 10
 	{
 		underdone = true;
 	}
-	else if obj_oven.slot1cooktime > 10 && obj_oven.slot1cooktime < 15
+	else if cooktime > 10 && cooktime < 15
 	{
 		perfect = true;
 	}
-	else if obj_oven.slot1cooktime > 15 && obj_oven.slot1cooktime < 20
+	else if cooktime > 15 && cooktime < 20
 	{
 		overdone = true;
 	}
-	else if obj_oven.slot1cooktime > 20
+	else if cooktime > 20
 	{
 		burnt = true;
 	}
 	// remove pizza from slot
 	/////////
 	// set slot full to false
-	obj_oven.slot1full = false;
+	full = false;
 	// set slot cook time to zero
-	obj_oven.slot1cooktime = 0;
-	
+	cooktime = 0;
+	obj_customer.instance_destroy();
 	obj_game.iscustomer = false;
 }

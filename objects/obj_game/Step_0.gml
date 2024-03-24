@@ -39,11 +39,15 @@ if iscustomer == false
 	
 	if customernumber = 2
 	{
-		// put second customer order here
+		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: true, tomatosauce: true});
 	}
 	if customernumber = 3
 	{
-		// put third customer order here
+		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: true, ham: false, tomatosauce: true});
+	}
+		if customernumber = 4
+	{
+		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: false, tomatosauce: true});
 	}
 	highestposible += 100;
 	iscustomer = true;
@@ -52,11 +56,11 @@ if iscustomer == false
 if assemblyfinished == true
 {
 	// change number to how many total customers there are in the day
-	if customernumber >= 3
+	if customernumber >= 4
 	{
 		endofday = true;
 	}
-	/* if obj_pizza_base.cheese == obj_customer.cheese
+	if obj_pizza_base.cheese == obj_customer.cheese
 	{
 		playerscore += 15;
 	}
@@ -72,5 +76,5 @@ if assemblyfinished == true
 	{
 		playerscore += 15;
 	}
-	*/
+	
 }

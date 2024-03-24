@@ -10,3 +10,4 @@ image_yscale = 5;
 /// Create Event for Ingredient Object
 depth = 8;
 placed_ingredient = false;
+cheese = true;

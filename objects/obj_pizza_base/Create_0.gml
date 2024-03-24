@@ -1,5 +1,4 @@
 /// Create Event for cheese
-
 dragging = false; // Initialize drag
 // Increase the sprite scale 
 depth = 10;
