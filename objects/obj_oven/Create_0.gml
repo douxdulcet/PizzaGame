@@ -8,3 +8,5 @@ underdone = false;
 perfect = false;
 overdone = false;
 burnt = false;
+
+depth = 15;

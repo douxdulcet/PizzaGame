@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+show_debug_message("Mouse pressed on pizza oven");
 if full == true
 {
 	if cooktime <= 5
@@ -28,6 +29,6 @@ if full == true
 	full = false;
 	// set slot cook time to zero
 	cooktime = 0;
-	obj_customer.instance_destroy();
+	//obj_customer.instance_destroy();
 	obj_game.iscustomer = false;
 }
