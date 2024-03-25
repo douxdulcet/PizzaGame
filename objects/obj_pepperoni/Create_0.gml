@@ -8,8 +8,7 @@ image_xscale = 4;
 image_yscale = 4;
 depth = 7;
 placed_ingredient = false;
-pepperoni = true;
-
+obj_pizza_base.pepperoni = true;
 timer = 0; 
 sprite_cooked = false; 
 sprite_burnt = false;

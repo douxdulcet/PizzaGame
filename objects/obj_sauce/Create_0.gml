@@ -9,7 +9,7 @@ image_xscale = 4;
 image_yscale = 4;
 
 placed_ingredient = false;
-tomatosauce = true;
+obj_pizza_base.tomatosauce = true;
 timer = 0; 
 sprite_cooked = false; 
 sprite_burnt = false;

@@ -35,6 +35,7 @@ else if (placed_ingredient) {
         // Set the sauce's position relative to the parent's position
         x = parent.x + offset_x;
         y = parent.y + offset_y;
+		
 	}
 }
 

@@ -14,7 +14,11 @@ if (place_meeting(box_x, box_y, obj_pizza_base) ||
      // Check if pizza_base hasn't changed its sprite yet
         // Start a timer for pizza_base
         obj_pizza_base.timer += 1; // Increment the timer
-		full = true;
+		if onetimecall == false
+		{
+			full = true;
+			onetimecall = true;
+		}
     }
 // Check if the timer for pizza_base has reached 10 or 20 seconds
 if (instance_exists(obj_pizza_base)){
@@ -22,8 +26,7 @@ if (obj_pizza_base.timer >= room_speed * 10 && !obj_pizza_base.sprite_cooked) {
     // Change sprite after 10 seconds
     obj_pizza_base.sprite_index = pizzaBaseCooked; // Change to the new sprite
     obj_pizza_base.sprite_cooked = true; // Set flag to true
-
-
+}
 if (obj_pizza_base.timer >= room_speed * 20 && !obj_pizza_base.sprite_burnt) {
     // Change sprite after 20 seconds
     obj_pizza_base.sprite_index = pizzaBaseBurnt; // Change to the new sprite
@@ -141,7 +144,7 @@ if (obj_sauce.timer >= room_speed * 20 && !obj_sauce.sprite_burnt) {
 
 if full == true
 {
-	cooktime += 1 * delta_time;
+	cooktime += 1;
 }
 if burnt
 {
@@ -155,18 +158,17 @@ if overdone
 {
 	obj_game.playerscore = obj_game.playerscore + 20;
 	overdone = false;
-	show_debug_message("player score is " + obj_game.playerscore);
+	show_debug_message(obj_game.playerscore);
 }
 if underdone
 {
 	obj_game.playerscore = obj_game.playerscore + 20;
+	show_debug_message(obj_game.playerscore);
 	underdone = false;
-	show_debug_message("player score is " + obj_game.playerscore);
 }
 if perfect
 {
 	obj_game.playerscore = obj_game.playerscore + 40;
+	show_debug_message(obj_game.playerscore);
 	perfect = false;
-	show_debug_message("player score is " + obj_game.playerscore);
-}
 }

@@ -10,7 +10,7 @@ image_yscale = 4;
 /// Create Event for Ingredient Object
 depth = 8;
 placed_ingredient = false;
-cheese = true;
+obj_pizza_base.cheese = true;
 timer = 0; 
 sprite_cooked = false; 
 sprite_burnt = false;

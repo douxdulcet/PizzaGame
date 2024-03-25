@@ -31,23 +31,26 @@ if endofday == true
 	{
 		playergrade = "F";
 	}
+	
+	show_debug_message("Your grade for today was: " + playergrade + "");
+	endofday = false;
 }
 // add code to spawn customer and add 100 to highest posible variable
 if iscustomer == false
 {
 	customernumber +=1;
 	
-	if customernumber = 2
+	if customernumber == 2
 	{
-		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: true, tomatosauce: true});
+		instance_create_layer(100, -190, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: true, tomatosauce: true});
 	}
-	if customernumber = 3
+	if customernumber == 3
 	{
-		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: true, ham: false, tomatosauce: true});
+		instance_create_layer(100, -190, "Instances", obj_customer, {cheese: true, pepperoni: true, ham: false, tomatosauce: true});
 	}
-		if customernumber = 4
+	if customernumber == 4
 	{
-		instance_create_layer(384, 576, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: false, tomatosauce: true});
+		instance_create_layer(100, -190, "Instances", obj_customer, {cheese: true, pepperoni: false, ham: false, tomatosauce: true});
 	}
 	highestposible += 100;
 	iscustomer = true;
@@ -76,5 +79,9 @@ if assemblyfinished == true
 	{
 		playerscore += 15;
 	}
+	
+	assemblyfinished = false;
+	obj_customer.served = true;
+	//show_debug_message(playerscore);
 	
 }
